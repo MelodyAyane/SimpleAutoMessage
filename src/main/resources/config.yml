@@ -1,0 +1,10 @@
+message-lists:
+  - '感谢使用SimpleAutoMessage1'
+  - '感谢使用SimpleAutoMessage2'
+  - '感谢使用SimpleAutoMessage3'
+  - '感谢使用SimpleAutoMessage4'
+Time: 5
+bossbar:
+  - '感谢使用SimpleAutoMessage1'
+  - '感谢使用SimpleAutoMessage2'
+Bossbar-Time: 5

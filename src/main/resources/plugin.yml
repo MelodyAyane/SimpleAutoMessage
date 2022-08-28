@@ -1,0 +1,7 @@
+name: SimpleAutoMessage
+version: '${project.version}'
+main: melodyayane.simpleautomessage
+api-version: 1.16
+prefix: SAM
+authors: [ MelodyAyane ]
+description: SimpleAutoMessage
