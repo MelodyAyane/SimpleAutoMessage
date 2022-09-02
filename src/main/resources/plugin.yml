@@ -5,3 +5,12 @@ api-version: 1.16
 prefix: SAM
 authors: [ MelodyAyane ]
 description: SimpleAutoMessage
+commands:
+  samreload:
+    description: 重载插件
+    usage: /samreload
+    permission: sam.reload
+permissions:
+  sam.reload:
+    description: 权限以重载插件
+    default: op

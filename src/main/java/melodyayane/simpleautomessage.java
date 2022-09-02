@@ -1,5 +1,6 @@
 package melodyayane;
 
+import melodyayane.Command.Reload;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.entity.Player;
@@ -15,6 +16,10 @@ public final class simpleautomessage extends JavaPlugin {
 
     @Override
     public void onEnable() {
+
+
+
+        getCommand("samreload").setExecutor(new Reload());
         getLogger().info("SimpleAutoMessage enabled");
         if (!(new File(getDataFolder() + File.separator + "config.yml").exists())) {
             saveDefaultConfig();
